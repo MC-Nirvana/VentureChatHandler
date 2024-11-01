@@ -1,0 +1,2 @@
+# VentureChatHandler
+使MCDReforged能够正常解析由VentureChat修改过后的消息
