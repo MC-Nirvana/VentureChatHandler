@@ -1,0 +1,14 @@
+{
+	"id": "venture_chat_handler",
+	"version": "1.0.0",
+	"name": "VentureChatHandler",
+	"description": {
+		"zh_cn": "使MCDReforged能够正常解析由VentureChat修改过后的消息",
+		"en_us": "Make MCDReforged able to parse VentureChat modified messages"
+	},
+	"dependencies": {
+		"mcdreforged": ">=2.1.0"
+	},
+	"author": "MC_Nirvana",
+    "link": "https://github.com/MC-Nirvana/VentureChatHandler"
+}
