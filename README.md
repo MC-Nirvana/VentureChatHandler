@@ -8,7 +8,7 @@
 2024年10月26日晚19:04，我照常对我的服务器的插件、模组进行测试，发现服务器安装的VentureChat插件（一个支持频道功能的聊天前缀插件）会导致MCDReforged的所有功能无法正常使用（初步判断是因为VentureChat修改了聊天信息，导致MCDReforged无法正常解析因此无法正常工作），于是我花了一晚上，写出来了这个解析器。用于解决这个问题。并于10月27日晚23:46将其封装为插件。
 
 ## 插件用法
-1. 从[release](https://github.com/MC-Nirvana/VentureChatHandler/releases)中下载最新版本
+1. 从[releases](https://github.com/MC-Nirvana/VentureChatHandler/releases)中下载最新版本。
 2. 在MCDReforged的启动环境中安装好需要的Python依赖。
 3. 将插件放进plugins文件夹里面。
 4. 调整配置文件以适配服务器的聊天信息格式。
@@ -23,7 +23,7 @@
 | **chat_prefix_regex** | 需要解析的玩家消息正则表达式 |
 
 ## 常见问题与解答（FAQ）
-- Q: 为什么名称叫VentureChatHandler？是专门为VentureChat制作的吗？不支持其他聊天前缀插件吗
+- Q: 为什么名称叫VentureChatHandler？是专门为VentureChat制作的吗？不支持其他聊天前缀插件吗？
   - > A: 因为这个插件是我为我自己服务器写的，我自己的服务器采用了VentureChat插件，因此才命名为VentureChatHandler。至于其他聊天前缀插件是否支持......我没测过，如果有兴趣可以自行测试下。理论上应该是支持市面上所有的聊天前缀插件。
 - Q: 为什么上面说插件是10月27号做好的，但MCDReforged官方仓库显示是11月5号提交的。中间相差好几天啊，怎么回事？
    - > A: 因为最开始我写插件的时候只是想自己用，再加上当时MCDReforged官方仓库并没有为Handlers插件创建分类。因此没有提交（当时甚至没有创建Git仓库，是后来才创建Git存储库并决定公开的。）
